@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <div style="text-align: center;">
+    <input type="text" id="input" name="input">
+    </div>
+    <div class="main">
+    <table>
+        <tr>
+            <td>
+                <button onclick="getValue(7)">7</button>
+            </td>
+            <td>
+                <button onclick="getValue(8)">8</button>
+            </td>
+            <td>
+                <button onclick="getValue(9)">9</button>
+            </td>
+            <td>
+                <button class="btn" onclick="getValue('+')"><ion-icon style="font-size: 21px;" name="add-circle"></ion-icon></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="getValue(4)">4</button>
+            </td>
+            <td>
+                <button onclick="getValue(5)">5</button>
+            </td>
+            <td>
+                <button onclick="getValue(6)">6</button>
+            </td>
+            <td>
+                <button class="btn" onclick="getValue('-')"><ion-icon style="font-size: 21px;" name="remove-circle"></ion-icon></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="getValue(1)">1</button>
+            </td>
+            <td>
+                <button onclick="getValue(2)">2</button>
+            </td>
+            <td>
+                <button onclick="getValue(3)">3</button>
+            </td>
+            <td>
+                <button class="btn" onclick="getValue('*')"><ion-icon style="font-size: 21px;" name="close-circle"></ion-icon></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="getValue(0)">0</button>
+            </td>
+            <td>
+                <button onclick="clearValue()" id="ac">AC</button>
+            </td>
+            <td>
+                <button class="complete" onclick="getCompleteValue()">=</button>
+            </td>
+            <td>
+                <button class="btn btn-divide" onclick="getValue('/')">÷</button>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+<script src="app.js"></script>
+</html>

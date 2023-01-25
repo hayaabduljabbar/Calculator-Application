@@ -1,0 +1,70 @@
+table{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 20px;   
+    color: black;
+}
+
+.btn{
+    padding: 8px 13px 7px 13px;
+}
+
+#ac{
+    padding: 10px 14px 10px 15px;
+    color: white;
+    background-color: red;
+}
+
+.complete{
+    background-color: rgb(1, 226, 1);
+    color: white;
+}
+
+.main{
+    justify-content: center;
+    display: flex;
+}
+
+input{
+    display: block;
+    margin : 0 auto;
+    margin-top: 6rem;
+    font-size: 28.5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    padding: 10px 8px 10px 8px;
+    width: 11.7em;
+    align-content: center;
+    border: black 5px solid;
+    text-align: center;
+}
+
+@media only screen and (max-width: 380px) {    
+    input{
+        margin-top: 175px;
+        margin-left: -7.9px;
+        width: 11.7.9em;        
+    }
+    }
+    @media only screen and (max-width: 280px) {    
+    /* body{
+        background-color: black;
+    } */
+    table{
+        margin-left: 80px;
+    }
+    input{
+        margin-top: 175px;
+        margin-left: -7.9px;
+        width: 11.8em;        
+    }
+}
